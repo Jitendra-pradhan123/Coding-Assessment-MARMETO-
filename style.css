@@ -1,0 +1,278 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-sec {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 100px;
+  width: 100%;
+}
+
+.nav-logo{
+  display: flex;
+}
+
+.nav-one{
+  margin-top: 5px;
+}
+
+.nav-two{
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-t ul li {
+  font-weight: 600;
+  padding-right: 35px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  color: #333;
+  opacity: 0.6;
+}
+
+
+.nav-links a:hover {
+  font-size: 1.2rem;
+  color:black;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.cart-icon i{
+  padding-right: 25px;
+}
+
+.cart-icon a{
+ color: black;
+}
+
+
+.cart-page{
+  text-align: center;
+  max-height: 316px;
+  max-width: 100%;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1461/f3d6/ff74c027a1888544144abe4be6e02cbf?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MjBen-u~ppiZTohfi1bY4PcliHvqg9ybfYFSBxf8gf6YAIMIe64KgB22jgATh3nINU31wiI1PAnYiHO1Kmjz-QawJgoi3ELRAMkeXFng-MnN9FtALYrx8vtntjaI5Ijeeviav~W7f5WQ4-A8-jlayeSzglYqms9s9egQT1iPU2LgWmJphOBFKJvoT1FTbQNhX5IGsnSR~p1KPHnnMFxBekBhEMkeXo8pWrV0wcjctLyrCy20H~BKSFx-pGFVU2AM6j968PUeu2HjwT6tmBFLXtUP~rCJc3PUN509R2cvFW7tu5jzWIymNqLXX1PUBERp7vucT9HGh~MTLBATrKa8WA__");
+  background-position: center left;
+ opacity: 0.6;
+  z-index: 1;
+}
+
+
+.cart-header {
+  margin-bottom: 1.5rem;
+  z-index: 1;
+}
+
+.cart-header p a{
+  font-weight: 800;
+  font-size: 17px;
+  color: black;
+
+}
+
+.cart-header p {
+  font-size: 17px;
+
+}
+
+
+
+.cart-table {
+  border-collapse: collapse;
+  max-height: 55px;
+  width: 950px;
+  margin-top:100px;
+  margin-left: 100px;
+ 
+}
+
+.cart-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-page {
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+
+
+.cart-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+
+}
+
+
+.cart-table {
+  border-collapse: collapse;
+  max-height: 55px;
+  width: 950px;
+  margin-top:100px;
+  margin-left: 100px;
+
+ 
+}
+.cart-table th {
+  background-color: #f9f1e7;
+
+
+}
+
+.cart-table th, .cart-table td {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+
+
+.cart-table th {
+  background-color: #f9f1e7;
+}
+.cart-items{
+  height: 50px;
+  width: 950px;
+
+}
+.quantity-input{
+  height: 35px;
+  width: 45px;
+  border: 2px solid black;
+  font-size: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.cart-summary {
+  width: 393px;
+  background: #f9f1e7;
+ 
+  border-radius: 5px;
+  padding: 1rem;
+  height: 390px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.cart-summary h2 {
+  margin-bottom: 1rem;
+}
+
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  margin-left: 25px;
+
+}
+#subtotal{
+  margin-right: 70px;
+}
+#total{
+  margin-right: 65px;
+  color: brown;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#checkout-btn {
+  width: 222px;
+  padding: 1rem;
+  background-color: transparent;
+  color: black;
+  height: 59px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1rem;
+ display: flex;
+ justify-content: center;
+
+ margin-top: 70px;
+ margin-left: 75px;
+ font-weight: 600;
+
+}
+
+#checkout-btn:hover {
+ border: 3px solid red;
+ font: size 1.2rem ;
+}
+.remove-btn{
+  background-color: #f9f1e7;
+  border: none;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+
+
+
+.footer {
+  background: #faf3ea;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-top: 90px;
+  height: 170px;
+ 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.high-quality{
+  display: flex;
+}
+.high-one{
+  margin-right: 15px;
+}
+
+
+.high-two h2{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+}
+
+.high-two p{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+}
+
+
+@media (max-width: 768px) {
+  .cart-container {
+    flex-direction: column;
+  }
+
+  .cart-table, .cart-summary {
+    width: 100%;
+  }
+}

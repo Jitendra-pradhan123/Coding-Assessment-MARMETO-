@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Marmeto</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="first.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+  <div class="nav-sec">
+
+     <div class="nav-logo">
+      <div class="nav-one">
+        <img src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kns4eQZvPHoCBRgLNZwIZmedrDMYvm5sXtKGCyXxnaPneqCNSf7XqoizRRiEQGa8NXT5f23ZPyPi1miVsyPVnVi65oWCsRXusjyHwd4YVbnxcimg1RFbQQmpD6EU-ZHt~hLHfmMzeQMzC7v19MLaQfIUuf1YeoQ-kWVc9VYrVrbjOXmEmqZDJ8dyBWZv6otXywnP8SzvLX9dh3zQZU3B3ZSJBkqW2~aJyuoNC9dp80zTTmBCyxlYNSDmubfi04eN0bucnCKpDZfOfF8uQRIGmPn10IhRIUTMX2IW-jEbC~CEeCq29fanwqAO~tYmgHQMjoVTpnoZUweyvprIPtG~Aw__" height="45px" width="55px">
+      </div>
+
+      <div class="nav-two">Marmeto</div>
+
+    </div>
+
+        <div class="nav-t">
+           <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      
+      <div class="cart-icon">
+      <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"> <i class="fa-regular fa-heart"></i></a>
+        <a href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+ 
+  </div>
+
+
+  <div class="cart-page">
+
+      <div class="cart-logo">
+      <img src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kns4eQZvPHoCBRgLNZwIZmedrDMYvm5sXtKGCyXxnaPneqCNSf7XqoizRRiEQGa8NXT5f23ZPyPi1miVsyPVnVi65oWCsRXusjyHwd4YVbnxcimg1RFbQQmpD6EU-ZHt~hLHfmMzeQMzC7v19MLaQfIUuf1YeoQ-kWVc9VYrVrbjOXmEmqZDJ8dyBWZv6otXywnP8SzvLX9dh3zQZU3B3ZSJBkqW2~aJyuoNC9dp80zTTmBCyxlYNSDmubfi04eN0bucnCKpDZfOfF8uQRIGmPn10IhRIUTMX2IW-jEbC~CEeCq29fanwqAO~tYmgHQMjoVTpnoZUweyvprIPtG~Aw__"height="77px" width="77px">
+      </div>
+
+      <div class="cart-header">
+      <h1 style="font-size: 35px;">Cart</h1>
+      <p><a href="#">Home</a> > Cart</p>
+       </div>
+
+   </div>
+
+    <section class="cart-container">
+    
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+        </tbody>
+      </table>
+
+      <aside class="cart-summary">
+            <h2 style="text-align: center;padding-top: 50px;font-size: 30px;">Cart Totals</h2>
+
+        <div class="summary-item">
+          <span style="font-weight: 600;">Subtotal:</span>
+          <span id="subtotal">Rs. 0.00</span>
+        </div>
+
+        <div class="summary-item">
+          <span style="font-weight: 600;">Total:</span>
+          <span id="total">Rs. 0.00</span>
+        </div>
+
+        <button id="checkout-btn">Check Out</button>
+        
+    </section>
+  </main>
+
+  
+  <footer class="footer">
+     <div class="high-quality">
+      <div class="high-one" ><i class="fa-solid fa-trophy"></i></div>
+      <div class="high-two">
+        <h2>High Quality</h2>
+        <p>Crafted from top materials</p>
+      </div>
+     </div>
+
+     <div class="high-quality">
+      <div class="high-one" ><i class="fa-solid fa-certificate"></i></div>
+      <div class="high-two">
+        <h2>Warranty Protection</h2>
+        <p>Over 2 years</p>
+      </div>
+     </div>
+
+     <div class="high-quality">
+      <div class="high-one" ><i class="fa-solid fa-truck-fast"></i></div>
+      <div class="high-two">
+        <h2>Free shipping</h2>
+        <p>Order over 150 $</p>
+      </div>
+     </div>
+
+     <div class="high-quality">
+      <div class="high-one"><i class="fa-solid fa-headset"></i></i></div>
+      <div class="high-two">
+        <h2>24/7 Support</h2>
+        <p>Dedicated Support</p>
+      </div>
+     </div>
+    
+  </footer>
+
+ 
+</body>
+</html>
